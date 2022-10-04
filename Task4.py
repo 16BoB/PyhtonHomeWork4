@@ -55,7 +55,7 @@ def caesar_decipher(step, text, language):
 
         return result
 
-file = open("Salatcesar.txt", "a", encoding="utf-8")
+file = open("cesar.txt", "a", encoding="utf-8")
 chiphet_text = caesar_cipher(shift, message, lang)
 file.write(chiphet_text + '\n')
 
